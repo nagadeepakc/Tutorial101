@@ -3,6 +3,6 @@ module.exports = function(app) {
 	app.get('/', handlers.index);
 	app.get('/watch', handlers.watch);
 
-	app.get('/SYS2202_HW1', handlers.sys2202);
+	app.get('/site.home', handlers.sys2202);
 
 }

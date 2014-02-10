@@ -11,7 +11,7 @@ exports.watch = function(req, res) {
 }
 
 exports.sys2202 = function(req, res) {
-	res.render('SYS2202_HW1', function(err, html){
+	res.render('site.home', function(err, html){
 		res.send(html);
 	})
 }
