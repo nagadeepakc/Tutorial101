@@ -10,8 +10,8 @@ exports.watch = function(req, res) {
 	})
 }
 
-exports.sys2202 = function(req, res) {
-	res.render('site.home', function(err, html){
+exports.siteHome = function(req, res) {
+	res.render('site.home.html', function(err, html){
 		res.send(html);
 	})
 }
